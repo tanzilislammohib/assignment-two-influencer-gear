@@ -189,3 +189,107 @@ line-height: 40px;
 }
 
 
+
+/* For mobile responsive */
+
+@media only screen and (max-width:688px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .start-journey {
+   display: none;
+  }
+  .brand-title {
+    font-size: 16px;
+  }
+  .menu-bar {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+  
+  }
+  .menu-bar2 {
+    width: 24px;
+    height: 24px;
+    margin-left:336px ;
+  }
+  .brand-title {
+    display: none;
+  }
+  .brandtitle2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 35px;
+  
+  }
+.collections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.collection-title {
+  margin-top: 50px;
+}
+.footer {
+  width: 100%;
+} 
+.half-width img {
+  width: 202px;
+  height: 170px;
+}
+nav {
+  display: none;
+}
+.elogo {
+  display: none;
+}
+hr {
+  display: none;
+}
+.mobile-camera {
+  width: 202px;
+  height: 190px;
+  margin-top: 50px;
+}
+.navbar {
+  display: block;
+}
+.typo-mobile {
+  margin-top: 300px;
+}
+.typo-mobile h1 {
+  font-size: 28px;
+  text-align: center;
+}
+.typo-mobile p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom:20px;
+  text-align: center;
+  margin-top: 15px;
+}
+.typo-mobile a , .f-arrow-right {
+  font-size: 16px;
+}
+.typo-mobile a {
+  padding: 10px 24px 10px 24px;
+  color: #ffffff;
+  background-color:#E02C6D;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration: none;
+}
+.typo-mobile h5 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+  
+  
+}
+
+/* For tablet responsive */
+
+@media only screen and (min-width:689px max-width:992px) {
+  
+}
