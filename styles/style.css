@@ -6,6 +6,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: rgba(170, 170, 170, 0.486);
 }
 
 /* start header area */
@@ -25,7 +26,13 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  color: #000000;
+  transition: 0.5s ease-in-out;
 }
+nav ul li a:hover {
+  color: #E02C6D;
+}
+
 
 /* start journey section */
 
@@ -75,3 +82,110 @@ nav ul li a {
 }
 
 /* end journey section */
+
+/* start e market section */
+
+
+.elogo {
+  display: flex;
+  margin-left: 165px;
+}
+.elogo img {
+  margin-right: 60px;
+}
+
+/* end e market section */
+
+/* start populer collection */
+
+.populer-collection {
+  margin-top: 100px;
+}
+.collections {
+  display: grid;
+  grid-template-columns:329px 329px 329px;
+  gap: 30px;
+  justify-content: center;
+  
+}
+.collection {
+  background-color: #ffffff;
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+}
+.collection-title {
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #3A3A3A;
+}
+.collection-article {
+  margin-left: 14px;
+}
+.collection-article h2 {
+font-size: 28px;
+line-height: 40px;
+}
+.collection-photo {
+  margin-top: 17px;
+  margin-left:14px;
+  width: 300px;
+  height: 256px;
+  overflow: hidden;
+}
+.collection-photo img:hover {
+  transform:scale(1.5) ;
+}
+.collection-photo img {
+  width:300px;
+  height: 256px;
+  transition: 0.5s ease-in-out;
+  
+}
+.collection-article p {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.527);
+  line-height: 143%;
+}
+.star {
+  color: #FB8200;
+}
+.see-more {
+  text-align: right;
+  margin-right: 105px;
+  margin-top: 30px;
+}
+.see-more a {
+  text-decoration: none;
+}
+.see-more a, .right-arrow2 {
+  color: #E02C6D;
+}
+
+/* start footer section */
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0A0826;
+  margin-top: 100px;
+}
+.footer h2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 30px;
+  text-align: center;
+}
+.footer p {
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+  color:#D9DBE1;
+}
+.footer .fab {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+
