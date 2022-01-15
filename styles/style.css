@@ -151,6 +151,11 @@ line-height: 40px;
 .star {
   color: #FB8200;
 }
+.percentage {
+  color:#5E6366;
+  margin-left: 5px;
+  font-size: 14px;
+}
 .see-more {
   text-align: right;
   margin-right: 105px;
@@ -186,6 +191,18 @@ line-height: 40px;
 .footer .fab {
   color: #ffffff;
   margin-right: 5px;
+}
+
+/* for mobile */
+
+ .navbar {
+  display: none;
+}
+.typo-mobile {
+  display: none;
+}
+.mobile-camera {
+  display: none;
 }
 
 
@@ -248,15 +265,20 @@ hr {
   display: none;
 }
 .mobile-camera {
+  display: block;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.mobile-camera img {
   width: 202px;
   height: 190px;
-  margin-top: 50px;
 }
 .navbar {
   display: block;
 }
 .typo-mobile {
-  margin-top: 300px;
+  display: inline-block;
+  margin-top: 50px;
 }
 .typo-mobile h1 {
   font-size: 28px;
@@ -283,6 +305,9 @@ hr {
   text-align: center;
   margin-top: 30px;
 }
+.see-more {
+  margin-right: 50px;
+}
 
   
   
@@ -290,6 +315,52 @@ hr {
 
 /* For tablet responsive */
 
-@media only screen and (min-width:689px max-width:992px) {
-  
+@media only screen and (max-width:992px) and (min-width:689px) {
+
+  .elogo {
+    display: none;
+
+  }
+  hr{
+    display: none;
+  }
+  .collections {
+    display: grid;
+    grid-template-columns:220px 220px 220px;
+    gap: 30px;
+    justify-content: center;
+    
+  }
+  .collection {
+    background-color: #ffffff;
+    width: 220px;
+    height: 476px;
+    border-radius: 5px;
+  }
+  .collection img {
+    width: 100%;
+  }
+  .collection-photo {
+    width: 85%;
+  }
+  nav ul {
+    margin-left: 460px;
+    margin-right: 0px;
+  }
+  nav ul li {
+    margin-right: 14px;
+  }
+  .brand-title {
+    margin-left: 60px;
+  }
+  .see-more {
+    width: 100%;
+  }
+  .half-width img {
+    width: 340px;
+    height: 314px;
+  }
+  .populer-collection {
+    margin-top: 50px;
+  }
 }
