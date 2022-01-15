@@ -73,9 +73,13 @@ nav ul li a:hover {
 .half-width a {
   padding: 10px 24px 10px 24px;
   color: #ffffff;
-  background-color:#E02C6D;
+  background-color:rgba(224, 44, 110, 0.5);
   border-radius: 25px 25px 25px 25px;
   text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.half-width a:hover {
+   background-color: #E02C6D;
 }
 .right-arrow {
   margin-left: 8px;
@@ -210,6 +214,7 @@ line-height: 40px;
 /* For mobile responsive */
 
 @media only screen and (max-width:688px) {
+
   body {
     width: 100%;
     height: 100%;
@@ -224,12 +229,15 @@ line-height: 40px;
     width: 24px;
     height: 24px;
     display: inline-block;
+    padding-left: 16px;
+    margin-top: 0;
   
   }
   .menu-bar2 {
     width: 24px;
     height: 24px;
     margin-left:336px ;
+    margin-top: 0;
   }
   .brand-title {
     display: none;
@@ -326,15 +334,14 @@ hr {
   }
   .collections {
     display: grid;
-    grid-template-columns:220px 220px 220px;
+    grid-template-columns: 50% 50%;
     gap: 30px;
+    margin-left: 40px;
     justify-content: center;
     
   }
   .collection {
     background-color: #ffffff;
-    width: 220px;
-    height: 476px;
     border-radius: 5px;
   }
   .collection img {
