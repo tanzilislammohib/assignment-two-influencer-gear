@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* start header area */
+.brand-title {
+  margin-top: 87px;
+  margin-left: 120px;
+}
+nav ul {
+  display: flex;
+  margin-right: 86px;
+  margin-left: 703px;
+  margin-top: -23px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 34px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+/* start journey section */
+
+.start-journey {
+  display: flex;
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+}
+.journey-text {
+  margin-top: 146px;
+  margin-left: 120px;
+}
+.journey-photo {
+  width: 475px;
+  height: 475px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.half-width img {
+  width: 440px;
+  height: 414px;
+}
+.half-width h1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.half-width p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom:20px;
+}
+.half-width a , .f-arrow-right {
+  font-size: 16px;
+}
+.half-width a {
+  padding: 10px 24px 10px 24px;
+  color: #ffffff;
+  background-color:#E02C6D;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration: none;
+}
+.right-arrow {
+  margin-left: 8px;
+}
+
+/* end journey section */
